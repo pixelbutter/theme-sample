@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="16dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/title_palette"
+        android:textAppearance="?attr/titleTextAppearance"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="?android:attr/colorForeground"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/palettePrimaryDark"
+                style="@style/PaletteItem"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimaryDark"
+                android:text="@string/primary_dark"/>
+
+            <TextView
+                android:id="@+id/palettePrimary"
+                style="@style/PaletteItem"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:text="@string/primary"/>
+
+            <TextView
+                android:id="@+id/paletteBackground"
+                style="@style/PaletteItem"
+                android:layout_weight="1"
+                android:background="?android:attr/colorBackground"
+                android:text="@string/background"/>
+
+            <TextView
+                android:id="@+id/paletteAccent"
+                style="@style/PaletteItem"
+                android:layout_weight="1"
+                android:background="?attr/colorAccent"
+                android:text="@string/accent"
+                android:textColor="?android:attr/textColorSecondaryInverse"/>
+
+            <TextView
+                android:id="@+id/paletteNormal"
+                style="@style/PaletteItem"
+                android:layout_weight="1"
+                android:background="?attr/colorControlNormal"
+                android:text="@string/normal"
+                android:textColor="?android:attr/textColorSecondaryInverse"/>
+
+            <TextView
+                android:id="@+id/paletteForeground"
+                style="@style/PaletteItem"
+                android:layout_weight="1"
+                android:background="?android:attr/colorForeground"
+                android:text="@string/foreground"
+                android:textColor="?android:attr/textColorSecondaryInverse"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

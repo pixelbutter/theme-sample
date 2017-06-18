@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#040E29</color>
+    <color name="purpleDark">#000000</color>
+    <color name="purpleLight">#2D3551</color>
+    <color name="purple_87">#DE040E29</color>
+    <color name="purple_54">#8A040E29</color>
+    <color name="purple_38">#61040E29</color>
+
+    <color name="yellow">#FFEA00</color>
+    <color name="yellowDark">#C7B800</color>
+    <color name="yellowLight">#FFFF56</color>
+
+    <color name="orange">#EF5350</color>
+    <color name="orangeDark">#B61827</color>
+    <color name="orangeLight">#FF867C</color>
+
+    <color name="lakeBlue">#5894BC</color>
+    <color name="winterBlue">#9BE7FF</color>
+
+    <color name="carrotOrange">#FA961F</color>
+
+    <color name="eerieBlack">#111319</color>
+
+    <color name="darkGunmetal">#1D212B</color>
+    <color name="darkGunmetal_87">#DE1D212B</color>
+    <color name="darkGunmetal_54">#8A1D212B</color>
+    <color name="darkGunmetal_38">#611D212B</color>
+
+    <color name="gunmetal">#2A2F3D</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_87">#DEFFFFFF</color>
+    <color name="white_54">#8AFFFFFF</color>
+    <color name="white_38">#61FFFFFF</color>
+
+    <color name="eggshell">#F2E6DE</color>
+    <color name="eggshell_87">#DEF2E6DE</color>
+    <color name="eggshell_54">#8AF2E6DE</color>
+    <color name="eggshell_38">#61F2E6DE</color>
+
+    <color name="putty">#C1B8B2</color>
+</resources>

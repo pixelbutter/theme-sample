@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SubduedIllini" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!-- General theme colors -->
+        <item name="colorPrimary">@color/illiniColorPrimary</item>
+        <item name="colorPrimaryDark">@color/illiniColorPrimaryDark</item>
+        <item name="colorAccent">@color/illiniColorAccent</item>
+        <item name="titleTextAppearance">@style/Title.Thin</item>
+        <item name="android:colorBackground">@color/illiniBackground</item>
+        <item name="android:colorForeground">@color/illiniForeground</item>
+
+        <!-- Text Appearance styles -->
+        <item name="android:textColorPrimary">@color/illiniTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/illiniTextColorSecondary</item>
+        <item name="android:textColorTertiary">@color/illiniTextColorTertiary</item>
+        <item name="android:textColorLink">@color/illiniTextColorLink</item>
+        <item name="android:textColorHint">@color/illiniTextColorTertiary</item>
+        <item name="android:textColorPrimaryInverse">@color/illiniTextColorPrimaryInverse</item>
+        <item name="android:textColorSecondaryInverse">@color/illiniTextColorSecondaryInverse</item>
+        <item name="android:textColorTertiaryInverse">@color/illiniTextColorTertiaryInverse</item>
+        <item name="android:textColorLinkInverse">@color/illiniTextColorLinkInverse</item>
+        <item name="android:textColorHintInverse">@color/illiniTextColorTertiaryInverse</item>
+
+        <!-- Custom attributes defined in attrs.xml -->
+        <item name="backdropDrawable">@drawable/backdrop_stars</item>
+        <item name="dividerColor">@color/illiniDividerColor</item>
+    </style>
+
+    <style name="Title.Thin" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Title.Serif" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="PaletteItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:breakStrategy" tools:targetApi="m">balanced</item>
+    </style>
+
+    <style name="TextSample">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="TextSample.Inverse">
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="ViewSample">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="ViewSample.Name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ViewSample.Description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+</resources>

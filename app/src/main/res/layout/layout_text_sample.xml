@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/title_text_appearances"
+        android:textAppearance="?attr/titleTextAppearance"/>
+
+
+    <TextView
+        style="@style/TextSample"
+        android:text="@string/sample_text_summary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <!-- android:attr/textColorPrimary -->
+    <TextView
+        style="@style/TextSample"
+        android:text="@string/sample_text_primary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <!-- android:attr/textColorSecondary -->
+    <TextView
+        style="@style/TextSample"
+        android:text="@string/sample_text_secondary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+    <!-- android:attr/textColorTertiary -->
+    <TextView
+        style="@style/TextSample"
+        android:text="@string/sample_text_tertiary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="12sp"/>
+
+    <!-- android:attr/textColorLink -->
+    <TextView
+        style="@style/TextSample"
+        android:text="@string/sample_text_link"
+        android:linksClickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:autoLink="web"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="?android:attr/colorForeground"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextSample.Inverse"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:text="@string/sample_text_summary_inverse"
+                android:textSize="16sp"/>
+
+            <!-- android:attr/textColorPrimaryInverse -->
+            <TextView
+                style="@style/TextSample.Inverse"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:text="@string/sample_text_primary_inverse"/>
+
+            <!-- android:attr/textColorSecondaryInverse -->
+            <TextView
+                style="@style/TextSample.Inverse"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:text="@string/sample_text_secondary_inverse"/>
+
+            <!-- android:attr/textColorTertiaryInverse -->
+            <TextView
+                style="@style/TextSample.Inverse"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:text="@string/sample_text_tertiary_inverse"/>
+
+            <!-- android:attr/textColorLinkInverse -->
+            <TextView
+                style="@style/TextSample.Inverse"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:text="@string/sample_text_link_inverse"
+                android:textStyle="bold"
+                android:textColor="?android:attr/textColorLinkInverse"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
