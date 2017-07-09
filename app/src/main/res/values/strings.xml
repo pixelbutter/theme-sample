@@ -5,7 +5,9 @@
     <string name="title_palette">Palette</string>
     <string name="title_widgets">Widgets</string>
     <string name="tab_title_current_theme">Overview</string>
-    <string name="tab_title_switch_themes">Other Themes</string>
+    <string name="tab_title_other_themes">Other Themes</string>
+
+    <string name="theme_name_subdued_illini">Subdued Illini</string>
 
     <string name="primary">Primary</string>
     <string name="primary_dark">Primary Dark</string>
@@ -31,4 +33,7 @@
     <string name="sample_widget_radio_description">deselected: colorControlNormal; selected: colorAccent; ripple: colorControlHighlight.</string>
     <string name="sample_widget_switch_title">Switch</string>
     <string name="sample_widget_switch_description">off: colorSwitchThumbNormal; on: colorAccent; Use SwitchCompat for theme colors to be respected.</string>
+
+    <string name="try_theme">Try Theme</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis placerat magna eu semper. Donec sagittis <a href="https://developer.android.com/guide/topics/ui/themes.html">pharetra</a> rhoncus.</string>
 </resources>

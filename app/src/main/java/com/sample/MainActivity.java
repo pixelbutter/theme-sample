@@ -1,6 +1,7 @@
 package com.sample;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -14,6 +15,9 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String PREFS_NAME = "themePreferenceFile";
+    public static final String KEY_THEME_RES_ID = "themeResId";
+
     @BindView(R.id.mainTabLayout)
     TabLayout tabLayout;
 
@@ -23,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        int themeResId = settings.getInt(KEY_THEME_RES_ID, -1);
+        if (themeResId != -1) {
+            setTheme(themeResId);
+        }
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
@@ -33,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     private static class TabAdapter extends FragmentPagerAdapter {
 
         private static final int POSITION_THIS_THEME = 0;
-        private static final int POSITION_SWITCH = 1;
+        private static final int POSITION_LIST = 1;
 
         private Context context;
 
@@ -44,7 +53,13 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return OverviewFragment.newInstance();
+            switch (position) {
+                case POSITION_LIST:
+                    return ThemeListFragment.newInstance();
+                case POSITION_THIS_THEME:
+                default:
+                    return OverviewFragment.newInstance();
+            }
         }
 
         @Override
@@ -55,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
-                case POSITION_SWITCH:
-                    return context.getString(R.string.tab_title_switch_themes);
+                case POSITION_LIST:
+                    return context.getString(R.string.tab_title_other_themes);
                 case POSITION_THIS_THEME:
                 default:
                     return context.getString(R.string.tab_title_current_theme);

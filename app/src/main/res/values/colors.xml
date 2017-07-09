@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Subdued Illini Theme (orange and blue) -->
+    <!-- Subdued Illini Theme -->
     <color name="illiniColorPrimary">@color/darkGunmetal</color>
     <color name="illiniColorPrimaryDark">@color/eerieBlack</color>
     <color name="illiniColorAccent">@color/carrotOrange</color>
@@ -16,4 +16,21 @@
     <color name="illiniTextColorSecondaryInverse">@color/darkGunmetal_54</color>
     <color name="illiniTextColorTertiaryInverse">@color/darkGunmetal_38</color>
     <color name="illiniTextColorLinkInverse">@color/lakeBlue</color>
+
+    <!-- Sea Foam Theme -->
+    <color name="seaFoamColorPrimary">#333C37</color>
+    <color name="seaFoamColorPrimaryDark">#222222</color>
+    <color name="seaFoamColorAccent">#AAC7C5</color>
+    <color name="seaFoamBackground">#F1F1F1</color>
+    <color name="seaFoamForeground">#333C37</color>
+    <color name="seaFoamDividerColor">#8AF1F1F1</color>
+
+    <color name="seaFoamTextColorPrimary">#333C37</color>
+    <color name="seaFoamTextColorSecondary">#DE333C37</color>
+    <color name="seaFoamTextColorTertiary">#8A333C37</color>
+    <color name="seaFoamTextColorLink">@color/lakeBlue</color>
+    <color name="seaFoamTextColorPrimaryInverse">#F1F1F1</color>
+    <color name="seaFoamTextColorSecondaryInverse">#DEF1F1F1</color>
+    <color name="seaFoamTextColorTertiaryInverse">#8AF1F1F1</color>
+    <color name="seaFoamTextColorLinkInverse">@color/winterBlue</color>
 </resources>

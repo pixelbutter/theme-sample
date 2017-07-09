@@ -3,6 +3,8 @@
     <declare-styleable name="CustomTheme">
         <attr name="backdropDrawable" format="reference"/>
         <attr name="dividerColor" format="color|reference"/>
+        <attr name="themeName" format="string"/>
+        <attr name="tabLayoutStyle" format="reference"/>
     </declare-styleable>
 
 </resources>

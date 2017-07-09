@@ -1,30 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.SubduedIllini" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowTranslucentStatus">true</item>
+    <style name="TabStyle.Dark" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextAppearance.Light</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
 
-        <!-- General theme colors -->
-        <item name="colorPrimary">@color/illiniColorPrimary</item>
-        <item name="colorPrimaryDark">@color/illiniColorPrimaryDark</item>
-        <item name="colorAccent">@color/illiniColorAccent</item>
-        <item name="titleTextAppearance">@style/Title.Thin</item>
-        <item name="android:colorBackground">@color/illiniBackground</item>
-        <item name="android:colorForeground">@color/illiniForeground</item>
+    <style name="TabStyle.Dark.Serif">
+        <item name="tabTextAppearance">@style/TabTextAppearance.Light.Serif</item>
+    </style>
 
-        <!-- Text Appearance styles -->
-        <item name="android:textColorPrimary">@color/illiniTextColorPrimary</item>
-        <item name="android:textColorSecondary">@color/illiniTextColorSecondary</item>
-        <item name="android:textColorTertiary">@color/illiniTextColorTertiary</item>
-        <item name="android:textColorLink">@color/illiniTextColorLink</item>
-        <item name="android:textColorHint">@color/illiniTextColorTertiary</item>
-        <item name="android:textColorPrimaryInverse">@color/illiniTextColorPrimaryInverse</item>
-        <item name="android:textColorSecondaryInverse">@color/illiniTextColorSecondaryInverse</item>
-        <item name="android:textColorTertiaryInverse">@color/illiniTextColorTertiaryInverse</item>
-        <item name="android:textColorLinkInverse">@color/illiniTextColorLinkInverse</item>
-        <item name="android:textColorHintInverse">@color/illiniTextColorTertiaryInverse</item>
+    <style name="TabTextAppearance.Light" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/white_87</item>
+    </style>
 
-        <!-- Custom attributes defined in attrs.xml -->
-        <item name="backdropDrawable">@drawable/backdrop_stars</item>
-        <item name="dividerColor">@color/illiniDividerColor</item>
+    <style name="TabTextAppearance.Light.Serif">
+        <item name="android:textColor">@color/white_87</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="textAllCaps">false</item>
     </style>
 
     <style name="Title.Thin" parent="TextAppearance.AppCompat.Title">
@@ -45,6 +36,7 @@
         <item name="android:paddingBottom">4dp</item>
         <item name="android:minHeight">48dp</item>
         <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/gray_54</item>
         <item name="android:breakStrategy" tools:targetApi="m">balanced</item>
     </style>
 
