@@ -59,14 +59,16 @@
                 style="@style/PaletteItem"
                 android:layout_weight="1"
                 android:background="?attr/colorControlNormal"
-                android:text="@string/normal"/>
+                android:text="@string/normal"
+                android:textColor="?android:textColorSecondaryInverse"/>
 
             <TextView
                 android:id="@+id/paletteForeground"
                 style="@style/PaletteItem"
                 android:layout_weight="1"
                 android:background="?android:attr/colorForeground"
-                android:text="@string/foreground"/>
+                android:text="@string/foreground"
+                android:textColor="?android:textColorPrimaryInverse"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

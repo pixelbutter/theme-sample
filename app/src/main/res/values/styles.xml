@@ -1,4 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="TabStyle.Light" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextAppearance.Dark</item>
+        <item name="tabSelectedTextColor">@color/darkGunmetal</item>
+    </style>
+
     <style name="TabStyle.Dark" parent="Widget.Design.TabLayout">
         <item name="tabTextAppearance">@style/TabTextAppearance.Light</item>
         <item name="tabSelectedTextColor">@android:color/white</item>
@@ -6,6 +11,10 @@
 
     <style name="TabStyle.Dark.Serif">
         <item name="tabTextAppearance">@style/TabTextAppearance.Light.Serif</item>
+    </style>
+
+    <style name="TabTextAppearance.Dark" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/darkGunmetal_87</item>
     </style>
 
     <style name="TabTextAppearance.Light" parent="TextAppearance.Design.Tab">
@@ -36,7 +45,7 @@
         <item name="android:paddingBottom">4dp</item>
         <item name="android:minHeight">48dp</item>
         <item name="android:textSize">10dp</item>
-        <item name="android:textColor">@color/gray_54</item>
+        <item name="android:textColor">@color/gray_87</item>
         <item name="android:breakStrategy" tools:targetApi="m">balanced</item>
     </style>
 

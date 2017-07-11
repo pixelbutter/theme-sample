@@ -71,13 +71,15 @@
     <TextView
         android:id="@+id/radioButtonDescription"
         style="@style/ViewSample.Description"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="0dp"
         android:text="@string/sample_widget_radio_description"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@id/radioButtonName"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/radioButtonName"/>
+        app:layout_constraintStart_toStartOf="@+id/radioButtonName"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonName"/>
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switchWidget"
@@ -91,8 +93,6 @@
     <TextView
         android:id="@+id/switchName"
         style="@style/ViewSample.Name"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="0dp"
         android:text="@string/sample_widget_switch_title"
         app:layout_constraintBaseline_toBaselineOf="@id/switchWidget"
         app:layout_constraintRight_toRightOf="parent"
@@ -102,11 +102,12 @@
     <TextView
         android:id="@+id/switchDescription"
         style="@style/ViewSample.Description"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="0dp"
         android:text="@string/sample_widget_switch_description"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@+id/switchName"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/switchName"/>
+        app:layout_constraintStart_toStartOf="@+id/switchName"
+        app:layout_constraintTop_toBottomOf="@+id/switchName"/>
 </android.support.constraint.ConstraintLayout>

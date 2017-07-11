@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Subdued Illini Theme -->
+    <!-- Illini Theme -->
     <color name="illiniColorPrimary">@color/darkGunmetal</color>
     <color name="illiniColorPrimaryDark">@color/eerieBlack</color>
     <color name="illiniColorAccent">@color/carrotOrange</color>
@@ -31,4 +31,15 @@
     <color name="seaFoamTextColorSecondaryInverse">@color/lightGray_87</color>
     <color name="seaFoamTextColorTertiaryInverse">@color/lightGray_54</color>
     <color name="seaFoamTextColorLinkInverse">@color/winterBlue</color>
+
+    <!-- Tokyo Theme -->
+    <color name="tokyoColorPrimary">@color/white</color>
+    <color name="tokyoColorPrimaryDark">@color/whiteSmoke</color>
+    <color name="tokyoColorAccent">@color/sanguineRed</color>
+    <color name="tokyoColorNormal">@color/onyx_87</color>
+    <color name="tokyoBackground">@color/lightGray</color>
+    <color name="tokyoForeground">@color/agateBlue</color>
+    <color name="tokyoDividerColor">@color/gray_38</color>
+    <color name="tokyoTextColorLink">@color/agateBlue</color>
+    <color name="tokyoTextColorLinkInverse">@color/winterBlue</color>
 </resources>

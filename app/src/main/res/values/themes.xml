@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SubduedIllini" parent="Theme.AppCompat.NoActionBar">
+    <style name="Theme.Illini" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
         <!-- General theme colors -->
         <item name="colorPrimary">@color/illiniColorPrimary</item>
@@ -24,8 +24,8 @@
         <!-- Custom attributes defined in attrs.xml -->
         <item name="backdropDrawable">@drawable/fields</item>
         <item name="dividerColor">@color/illiniDividerColor</item>
-        <item name="themeName">@string/theme_name_subdued_illini</item>
-        <item name="themeDescription">@string/theme_desc_subdued_illini</item>
+        <item name="themeName">@string/theme_name_illini</item>
+        <item name="themeDescription">@string/theme_desc_illini</item>
         <item name="tabLayoutStyle">@style/TabStyle.Dark</item>
     </style>
 
@@ -47,7 +47,7 @@
         <item name="android:textColorPrimaryInverse">@color/seaFoamTextColorPrimaryInverse</item>
         <item name="android:textColorSecondaryInverse">@color/seaFoamTextColorSecondaryInverse</item>
         <item name="android:textColorTertiaryInverse">@color/seaFoamTextColorTertiaryInverse</item>
-        <item name="android:textColorLinkInverse">@color/winterBlue</item>
+        <item name="android:textColorLinkInverse">@color/seaFoamTextColorLinkInverse</item>
         <item name="android:textColorHintInverse">@color/seaFoamTextColorTertiaryInverse</item>
         <!-- Custom attributes defined in attrs.xml -->
         <item name="backdropDrawable">@drawable/water</item>
@@ -57,7 +57,28 @@
         <item name="tabLayoutStyle">@style/TabStyle.Dark.Serif</item>
     </style>
 
-    <style name="ThemeOverlay.SubduedIllini" parent="ThemeOverlay.AppCompat.Dark">
+    <style name="Theme.Tokyo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- General theme colors -->
+        <item name="colorPrimary">@color/tokyoColorPrimary</item>
+        <item name="colorPrimaryDark">@color/tokyoColorPrimaryDark</item>
+        <item name="colorAccent">@color/tokyoColorAccent</item>
+        <item name="colorControlNormal">@color/tokyoColorNormal</item>
+        <item name="titleTextAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <!-- Text Appearance styles -->
+        <item name="android:colorBackground">@color/tokyoBackground</item>
+        <item name="android:colorForeground">@color/tokyoForeground</item>
+        <item name="android:textColorLink">@color/tokyoTextColorLink</item>
+        <item name="android:textColorLinkInverse">@color/tokyoTextColorLinkInverse</item>
+        <!-- Custom attributes defined in attrs.xml -->
+        <item name="backdropDrawable">@drawable/japan</item>
+        <item name="dividerColor">@color/tokyoDividerColor</item>
+        <item name="themeName">@string/theme_name_tokyo</item>
+        <item name="themeDescription">@string/theme_desc_tokyo</item>
+        <item name="tabLayoutStyle">@style/TabStyle.Light</item>
+    </style>
+
+    <style name="ThemeOverlay.Illini" parent="ThemeOverlay.AppCompat.Dark">
         <item name="colorPrimary">@color/illiniColorPrimary</item>
         <item name="colorPrimaryDark">@color/illiniColorPrimaryDark</item>
         <item name="colorAccent">@color/illiniColorAccent</item>
@@ -74,11 +95,11 @@
         <item name="android:textColorTertiaryInverse">@color/illiniTextColorTertiaryInverse</item>
         <item name="android:textColorLinkInverse">@color/illiniTextColorLinkInverse</item>
         <item name="android:textColorHintInverse">@color/illiniTextColorTertiaryInverse</item>
-        <item name="themeName">@string/theme_name_subdued_illini</item>
-        <item name="themeDescription">@string/theme_desc_subdued_illini</item>
+        <item name="themeName">@string/theme_name_illini</item>
+        <item name="themeDescription">@string/theme_desc_illini</item>
     </style>
 
-    <style name="ThemeOverlay.SeaFoam" parent="ThemeOverlay.AppCompat.Dark">
+    <style name="ThemeOverlay.SeaFoam" parent="ThemeOverlay.AppCompat.Light">
         <item name="colorPrimary">@color/seaFoamColorPrimary</item>
         <item name="colorPrimaryDark">@color/seaFoamColorPrimaryDark</item>
         <item name="colorAccent">@color/seaFoamColorAccent</item>
@@ -93,9 +114,23 @@
         <item name="android:textColorPrimaryInverse">@color/seaFoamTextColorPrimaryInverse</item>
         <item name="android:textColorSecondaryInverse">@color/seaFoamTextColorSecondaryInverse</item>
         <item name="android:textColorTertiaryInverse">@color/seaFoamTextColorTertiaryInverse</item>
-        <item name="android:textColorLinkInverse">@color/winterBlue</item>
+        <item name="android:textColorLinkInverse">@color/seaFoamTextColorLinkInverse</item>
         <item name="android:textColorHintInverse">@color/seaFoamTextColorTertiaryInverse</item>
         <item name="themeName">@string/theme_name_sea_foam</item>
         <item name="themeDescription">@string/theme_desc_sea_foam</item>
+    </style>
+
+    <style name="ThemeOverlay.Tokyo" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/tokyoColorPrimary</item>
+        <item name="colorPrimaryDark">@color/tokyoColorPrimaryDark</item>
+        <item name="colorAccent">@color/tokyoColorAccent</item>
+        <item name="colorControlNormal">@color/tokyoColorNormal</item>
+        <item name="titleTextAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:colorBackground">@color/tokyoBackground</item>
+        <item name="android:colorForeground">@color/tokyoForeground</item>
+        <item name="android:textColorLink">@color/tokyoTextColorLink</item>
+        <item name="android:textColorLinkInverse">@color/tokyoTextColorLinkInverse</item>
+        <item name="themeName">@string/theme_name_tokyo</item>
+        <item name="themeDescription">@string/theme_desc_tokyo</item>
     </style>
 </resources>

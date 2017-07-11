@@ -19,14 +19,19 @@ public class ThemeListFragment extends BaseFragment {
         return R.layout.fragment_theme_list;
     }
 
-    @OnClick(R.id.sampleCardSubduedIllini)
-    protected void cardClickedSubduedIllini() {
-        saveAndSwitchTheme(R.style.Theme_SubduedIllini);
+    @OnClick(R.id.sampleCardIllini)
+    protected void cardClickedIllini() {
+        saveAndSwitchTheme(R.style.Theme_Illini);
     }
 
     @OnClick(R.id.sampleCardSeaFoam)
     protected void cardClickedSeaFoam() {
         saveAndSwitchTheme(R.style.Theme_SeaFoam);
+    }
+
+    @OnClick(R.id.sampleCardTokyo)
+    protected void cardClickedTokyo() {
+        saveAndSwitchTheme(R.style.Theme_Tokyo);
     }
 
     private void saveAndSwitchTheme(@StyleRes int themeRes) {

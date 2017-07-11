@@ -7,10 +7,12 @@
     <string name="tab_title_current_theme">Overview</string>
     <string name="tab_title_other_themes">Other Themes</string>
 
-    <string name="theme_name_subdued_illini">Subdued Illini</string>
+    <string name="theme_name_tokyo">Tokyo</string>
+    <string name="theme_name_illini">Illini</string>
     <string name="theme_name_sea_foam">Sea Foam</string>
 
-    <string name="theme_desc_subdued_illini">Dark</string>
+    <string name="theme_desc_tokyo">Light</string>
+    <string name="theme_desc_illini">Dark</string>
     <string name="theme_desc_sea_foam">Light, dark action bar</string>
 
     <string name="primary">Primary</string>
@@ -32,11 +34,11 @@
     <string name="sample_text_link_inverse">android:textColorLinkInverse</string>
 
     <string name="sample_widget_checkbox_title">Checkbox</string>
-    <string name="sample_widget_checkbox_description">unchecked: colorControlNormal; checked: colorAccent</string>
+    <string name="sample_widget_checkbox_description">colorControlNormal, colorAccent</string>
     <string name="sample_widget_radio_title">Radio Button</string>
-    <string name="sample_widget_radio_description">deselected: colorControlNormal; selected: colorAccent; ripple: colorControlHighlight.</string>
-    <string name="sample_widget_switch_title">Switch</string>
-    <string name="sample_widget_switch_description">off: colorSwitchThumbNormal; on: colorAccent; Use SwitchCompat for theme colors to be respected.</string>
+    <string name="sample_widget_radio_description">colorControlNormal, colorAccent, colorControlHighlight</string>
+    <string name="sample_widget_switch_title">Switch (SwitchCompat)</string>
+    <string name="sample_widget_switch_description">colorSwitchThumbNormal, colorAccent, colorForeground, colorControlHighlight</string>
 
     <string name="try_theme">Try Theme</string>
     <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis placerat magna eu semper. Donec sagittis <a href="https://developer.android.com/guide/topics/ui/themes.html">pharetra</a> rhoncus.</string>
