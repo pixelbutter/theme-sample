@@ -7,7 +7,6 @@
     <color name="illiniBackground">@color/gunmetal</color>
     <color name="illiniForeground">@color/putty</color>
     <color name="illiniDividerColor">@color/eggshell_38</color>
-
     <color name="illiniTextColorPrimary">@color/eggshell</color>
     <color name="illiniTextColorSecondary">@color/eggshell_87</color>
     <color name="illiniTextColorTertiary">@color/eggshell_54</color>
@@ -18,19 +17,18 @@
     <color name="illiniTextColorLinkInverse">@color/lakeBlue</color>
 
     <!-- Sea Foam Theme -->
-    <color name="seaFoamColorPrimary">#333C37</color>
-    <color name="seaFoamColorPrimaryDark">#222222</color>
-    <color name="seaFoamColorAccent">#AAC7C5</color>
-    <color name="seaFoamBackground">#F1F1F1</color>
-    <color name="seaFoamForeground">#333C37</color>
-    <color name="seaFoamDividerColor">#8AF1F1F1</color>
-
-    <color name="seaFoamTextColorPrimary">#333C37</color>
-    <color name="seaFoamTextColorSecondary">#DE333C37</color>
-    <color name="seaFoamTextColorTertiary">#8A333C37</color>
+    <color name="seaFoamColorPrimary">@color/onyx</color>
+    <color name="seaFoamColorPrimaryDark">@color/raisinBlack</color>
+    <color name="seaFoamColorAccent">@color/seaFoam</color>
+    <color name="seaFoamBackground">@color/lightGray</color>
+    <color name="seaFoamForeground">@color/onyx</color>
+    <color name="seaFoamDividerColor">@color/lightGray_54</color>
+    <color name="seaFoamTextColorPrimary">@color/onyx</color>
+    <color name="seaFoamTextColorSecondary">@color/onyx_87</color>
+    <color name="seaFoamTextColorTertiary">@color/onyx_54</color>
     <color name="seaFoamTextColorLink">@color/lakeBlue</color>
-    <color name="seaFoamTextColorPrimaryInverse">#F1F1F1</color>
-    <color name="seaFoamTextColorSecondaryInverse">#DEF1F1F1</color>
-    <color name="seaFoamTextColorTertiaryInverse">#8AF1F1F1</color>
+    <color name="seaFoamTextColorPrimaryInverse">@color/lightGray</color>
+    <color name="seaFoamTextColorSecondaryInverse">@color/lightGray_87</color>
+    <color name="seaFoamTextColorTertiaryInverse">@color/lightGray_54</color>
     <color name="seaFoamTextColorLinkInverse">@color/winterBlue</color>
 </resources>

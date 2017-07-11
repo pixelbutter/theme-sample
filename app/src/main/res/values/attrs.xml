@@ -4,6 +4,7 @@
         <attr name="backdropDrawable" format="reference"/>
         <attr name="dividerColor" format="color|reference"/>
         <attr name="themeName" format="string"/>
+        <attr name="themeDescription" format="string"/>
         <attr name="tabLayoutStyle" format="reference"/>
     </declare-styleable>
 

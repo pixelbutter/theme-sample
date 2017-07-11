@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple">#040E29</color>
-    <color name="purpleDark">#000000</color>
-    <color name="purpleLight">#2D3551</color>
-    <color name="purple_87">#DE040E29</color>
-    <color name="purple_54">#8A040E29</color>
-    <color name="purple_38">#61040E29</color>
+    <color name="carrotOrange">#FA961F</color>
 
-    <color name="gray_54">#DE9e9e9e</color>
-
-    <color name="yellow">#FFEA00</color>
-    <color name="yellowDark">#C7B800</color>
-    <color name="yellowLight">#FFFF56</color>
-
-    <color name="orange">#EF5350</color>
-    <color name="orangeDark">#B61827</color>
-    <color name="orangeLight">#FF867C</color>
+    <color name="seaFoam">#AAC7C5</color>
 
     <color name="lakeBlue">#5894BC</color>
     <color name="winterBlue">#9BE7FF</color>
 
-    <color name="carrotOrange">#FA961F</color>
+    <color name="purpleDark">#000000</color>
+    <color name="purpleLight">#2D3551</color>
+    <color name="purple">#040E29</color>
+    <color name="purple_87">#DE040E29</color>
+    <color name="purple_54">#8A040E29</color>
+    <color name="purple_38">#61040E29</color>
 
     <color name="eerieBlack">#111319</color>
-
+    <color name="raisinBlack">#222222</color>
     <color name="darkGunmetal">#1D212B</color>
     <color name="darkGunmetal_87">#DE1D212B</color>
     <color name="darkGunmetal_54">#8A1D212B</color>
     <color name="darkGunmetal_38">#611D212B</color>
-
     <color name="gunmetal">#2A2F3D</color>
+    <color name="onyx">#333C37</color>
+    <color name="onyx_87">#DE333C37</color>
+    <color name="onyx_54">#8A333C37</color>
+    <color name="onyx_38">#61333C37</color>
+
+    <color name="gray_54">#DE9e9e9e</color>
+
+    <color name="lightGray">#F1F1F1</color>
+    <color name="lightGray_87">#F1F1F1</color>
+    <color name="lightGray_54">#8AF1F1F1</color>
 
     <color name="white">#FFFFFF</color>
     <color name="white_87">#DEFFFFFF</color>

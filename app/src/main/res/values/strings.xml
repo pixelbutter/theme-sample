@@ -8,6 +8,10 @@
     <string name="tab_title_other_themes">Other Themes</string>
 
     <string name="theme_name_subdued_illini">Subdued Illini</string>
+    <string name="theme_name_sea_foam">Sea Foam</string>
+
+    <string name="theme_desc_subdued_illini">Dark</string>
+    <string name="theme_desc_sea_foam">Light, dark action bar</string>
 
     <string name="primary">Primary</string>
     <string name="primary_dark">Primary Dark</string>
