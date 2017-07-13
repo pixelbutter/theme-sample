@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Theme Sample</string>
-    
+    <string name="toast_readme">See README for details</string>
+
     <string name="title_text_appearances">Text Appearances</string>
     <string name="title_palette">Palette</string>
     <string name="title_widgets">Widgets</string>
@@ -21,24 +22,30 @@
     <string name="normal">Normal</string>
     <string name="background">Background</string>
     <string name="foreground">Foreground</string>
-
-    <string name="sample_text_summary">TextAppearances (android:textAppearance) are styles applied specific to text. Android provides different text colors attributes (e.g. android:textColorPrimary) that can be set in your custom theme and will be used with different text appearances. The value of a textColor can either be a simple color, or a selector (e.g. for disabled states).</string>
-    <string name="sample_text_primary">textColorPrimary -  It is used for many of the AppCompat TextAppearances such as Headline, Large, Title, Subhead, Body1, Body2, Button, Menu, Action bar.</string>
-    <string name="sample_text_secondary">textColorSecondary - It is used for secondary TextAppearances such as Caption, Medium, Action bar subtitle, and so forth. Material themes use the same RGB values for secondary text as primary, but different opacity/alpha value.</string>
-    <string name="sample_text_tertiary">textColorTertiary - It is used for tertiary TextAppearances such as TextAppearance.AppCompat.Small, but generally not used. In Material themes, this is currently the same value as the secondary text color (e.g. @color/secondary_text_default_material_dark).</string>
+    
+    <string name="sample_text_summary">TextAppearances (android:textAppearance) are styles applied specific to text. Android provides different text colors attributes that can be set in your custom theme and will be used with different text appearances. The value of a textColor can either be a simple color, or a selector (e.g. for disabled states).</string>
+    <string name="sample_text_primary">android:textColorPrimary</string>
+    <string name="sample_text_secondary">android:textColorSecondary</string>
+    <string name="sample_text_tertiary">android:textColorTertiary</string>
     <string name="sample_text_link">textColorLink - <a href="https://developer.android.com/guide/topics/ui/themes.html">Official docs: themes and styles</a></string>
-    <string name="sample_text_summary_inverse">There are corresponding inverse colors such as textColorPrimaryInverse, textColorHintInverse, etc.</string>
+    <string name="sample_text_summary_inverse">For each text color attribute, there is a corresponding inverse color.</string>
     <string name="sample_text_primary_inverse">android:textColorPrimaryInverse</string>
     <string name="sample_text_secondary_inverse">android:textColorSecondaryInverse</string>
     <string name="sample_text_tertiary_inverse">android:textColorTertiaryInverse</string>
     <string name="sample_text_link_inverse">android:textColorLinkInverse</string>
 
-    <string name="sample_widget_checkbox_title">Checkbox</string>
-    <string name="sample_widget_checkbox_description">colorControlNormal, colorAccent</string>
-    <string name="sample_widget_radio_title">Radio Button</string>
-    <string name="sample_widget_radio_description">colorControlNormal, colorAccent, colorControlHighlight</string>
-    <string name="sample_widget_switch_title">Switch (SwitchCompat)</string>
-    <string name="sample_widget_switch_description">colorSwitchThumbNormal, colorAccent, colorForeground, colorControlHighlight</string>
+    <string name="checkbox_title">Checkbox</string>
+    <string name="checkbox_description">colorControlNormal, colorAccent</string>
+    <string name="radio_title">Radio Button</string>
+    <string name="radio_description">colorControlNormal, colorAccent, colorControlHighlight</string>
+    <string name="switch_title">Switch (SwitchCompat)</string>
+    <string name="switch_description">colorSwitchThumbNormal, colorAccent, colorForeground, colorControlHighlight</string>
+    <string name="buttonDefault">Default</string>
+    <string name="buttonColored">Colored</string>
+    <string name="buttonBorderless">Borderless</string>
+    <string name="dialog_title">Cake?</string>
+    <string name="dialog_text">This is some dialog text about cake.</string>
+    <string name="dialog_action">OK</string>
 
     <string name="try_theme">Try Theme</string>
     <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis placerat magna eu semper. Donec sagittis <a href="https://developer.android.com/guide/topics/ui/themes.html">pharetra</a> rhoncus.</string>

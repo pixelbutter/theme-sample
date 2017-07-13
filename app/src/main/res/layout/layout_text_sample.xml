@@ -15,6 +15,7 @@
 
     <TextView
         style="@style/TextSample"
+        android:layout_marginBottom="8dp"
         android:text="@string/sample_text_summary"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
