@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Theme Sample</string>
-    <string name="toast_readme">See README for details</string>
 
     <string name="title_text_appearances">Text Appearances</string>
     <string name="title_palette">Palette</string>
@@ -23,11 +22,11 @@
     <string name="background">Background</string>
     <string name="foreground">Foreground</string>
     
-    <string name="sample_text_summary">TextAppearances (android:textAppearance) are styles applied specific to text. Android provides different text colors attributes that can be set in your custom theme and will be used with different text appearances. The value of a textColor can either be a simple color, or a selector (e.g. for disabled states).</string>
+    <string name="sample_text_summary">TextAppearances are styles applied specific to text. Android provides different text colors attributes that can be set in your custom theme and will be used with different text appearances. The value of a textColor can either be a simple color or a selector.</string>
     <string name="sample_text_primary">android:textColorPrimary</string>
     <string name="sample_text_secondary">android:textColorSecondary</string>
     <string name="sample_text_tertiary">android:textColorTertiary</string>
-    <string name="sample_text_link">textColorLink - <a href="https://developer.android.com/guide/topics/ui/themes.html">Official docs: themes and styles</a></string>
+    <string name="sample_text_link"><a href="https://www.example.com">android:textColorLink</a></string>
     <string name="sample_text_summary_inverse">For each text color attribute, there is a corresponding inverse color.</string>
     <string name="sample_text_primary_inverse">android:textColorPrimaryInverse</string>
     <string name="sample_text_secondary_inverse">android:textColorSecondaryInverse</string>

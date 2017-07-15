@@ -8,22 +8,22 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- TODO backwards compat -->
-        <include
+        <com.sample.ThemeSampleView
             android:id="@+id/sampleCardSeaFoam"
-            layout="@layout/view_theme_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.SeaFoam"/>
 
-        <!-- TODO backwards compat -->
-        <include
+        <com.sample.ThemeSampleView
             android:id="@+id/sampleCardIllini"
-            layout="@layout/view_theme_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.Illini"/>
 
-        <!-- TODO backwards compat -->
-        <include
+        <com.sample.ThemeSampleView
             android:id="@+id/sampleCardTokyo"
-            layout="@layout/view_theme_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.Tokyo"/>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

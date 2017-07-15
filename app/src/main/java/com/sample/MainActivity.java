@@ -9,7 +9,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -38,12 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(new TabAdapter(this, getSupportFragmentManager()));
         tabLayout.setupWithViewPager(viewPager);
-    }
-
-    @Override
-    protected void onResumeFragments() {
-        super.onResumeFragments();
-        Toast.makeText(getApplicationContext(), R.string.toast_readme, Toast.LENGTH_SHORT).show();
     }
 
     private static class TabAdapter extends FragmentPagerAdapter {

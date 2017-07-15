@@ -7,10 +7,10 @@
         <item name="colorPrimary">@color/illiniColorPrimary</item>
         <item name="colorPrimaryDark">@color/illiniColorPrimaryDark</item>
         <item name="colorAccent">@color/illiniColorAccent</item>
-        <item name="titleTextAppearance">@style/Title.Thin</item>
         <item name="android:colorBackground">@color/illiniBackground</item>
         <item name="android:colorForeground">@color/illiniForeground</item>
         <!-- Text Appearance styles -->
+        <item name="android:textViewStyle">@style/TextViewStyle.Condensed</item>
         <item name="android:textColorPrimary">@color/illiniTextColorPrimary</item>
         <item name="android:textColorSecondary">@color/illiniTextColorSecondary</item>
         <item name="android:textColorTertiary">@color/illiniTextColorTertiary</item>
@@ -35,10 +35,10 @@
         <item name="colorPrimary">@color/seaFoamColorPrimary</item>
         <item name="colorPrimaryDark">@color/seaFoamColorPrimaryDark</item>
         <item name="colorAccent">@color/seaFoamColorAccent</item>
-        <item name="titleTextAppearance">@style/Title.Serif</item>
         <item name="android:colorBackground">@color/seaFoamBackground</item>
         <item name="android:colorForeground">@color/seaFoamForeground</item>
         <!-- Text Appearance styles -->
+        <item name="android:textViewStyle">@style/TextViewStyle.Serif</item>
         <item name="android:textColorPrimary">@color/seaFoamTextColorPrimary</item>
         <item name="android:textColorSecondary">@color/seaFoamTextColorSecondary</item>
         <item name="android:textColorTertiary">@color/seaFoamTextColorTertiary</item>
@@ -64,7 +64,6 @@
         <item name="colorPrimaryDark">@color/tokyoColorPrimaryDark</item>
         <item name="colorAccent">@color/tokyoColorAccent</item>
         <item name="colorControlNormal">@color/tokyoColorNormal</item>
-        <item name="titleTextAppearance">@style/TextAppearance.AppCompat.Title</item>
         <!-- Text Appearance styles -->
         <item name="android:colorBackground">@color/tokyoBackground</item>
         <item name="android:colorForeground">@color/tokyoForeground</item>
@@ -82,9 +81,9 @@
         <item name="colorPrimary">@color/illiniColorPrimary</item>
         <item name="colorPrimaryDark">@color/illiniColorPrimaryDark</item>
         <item name="colorAccent">@color/illiniColorAccent</item>
-        <item name="titleTextAppearance">@style/Title.Thin</item>
         <item name="android:colorBackground">@color/illiniBackground</item>
         <item name="android:colorForeground">@color/illiniForeground</item>
+        <item name="android:textViewStyle">@style/TextViewStyle.Condensed</item>
         <item name="android:textColorPrimary">@color/illiniTextColorPrimary</item>
         <item name="android:textColorSecondary">@color/illiniTextColorSecondary</item>
         <item name="android:textColorTertiary">@color/illiniTextColorTertiary</item>
@@ -103,7 +102,7 @@
         <item name="colorPrimary">@color/seaFoamColorPrimary</item>
         <item name="colorPrimaryDark">@color/seaFoamColorPrimaryDark</item>
         <item name="colorAccent">@color/seaFoamColorAccent</item>
-        <item name="titleTextAppearance">@style/Title.Serif</item>
+        <item name="android:textViewStyle">@style/TextViewStyle.Serif</item>
         <item name="android:colorBackground">@color/seaFoamBackground</item>
         <item name="android:colorForeground">@color/seaFoamForeground</item>
         <item name="android:textColorPrimary">@color/seaFoamTextColorPrimary</item>
@@ -125,7 +124,6 @@
         <item name="colorPrimaryDark">@color/tokyoColorPrimaryDark</item>
         <item name="colorAccent">@color/tokyoColorAccent</item>
         <item name="colorControlNormal">@color/tokyoColorNormal</item>
-        <item name="titleTextAppearance">@style/TextAppearance.AppCompat.Title</item>
         <item name="android:colorBackground">@color/tokyoBackground</item>
         <item name="android:colorForeground">@color/tokyoForeground</item>
         <item name="android:textColorLink">@color/tokyoTextColorLink</item>

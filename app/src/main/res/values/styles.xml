@@ -27,12 +27,12 @@
         <item name="textAllCaps">false</item>
     </style>
 
-    <style name="Title.Thin" parent="TextAppearance.AppCompat.Title">
-        <item name="android:fontFamily">sans-serif-thin</item>
+    <style name="TextViewStyle.Serif" parent="android:Widget.TextView">
+        <item name="android:fontFamily">serif</item>
     </style>
 
-    <style name="Title.Serif" parent="TextAppearance.AppCompat.Title">
-        <item name="android:fontFamily">serif</item>
+    <style name="TextViewStyle.Condensed" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
 
     <style name="PaletteItem">

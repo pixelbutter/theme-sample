@@ -10,8 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="@string/title_text_appearances"
-        android:textAppearance="?attr/titleTextAppearance"/>
-
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
 
     <TextView
         style="@style/TextSample"
@@ -51,21 +50,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:cardBackgroundColor="?android:attr/colorForeground"
-        app:cardCornerRadius="2dp">
+        app:cardCornerRadius="2dp"
+        app:cardPreventCornerOverlap="false">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
+            android:orientation="vertical"
             android:paddingBottom="8dp"
-            android:orientation="vertical">
-
-            <TextView
-                style="@style/TextSample.Inverse"
-                android:layout_marginBottom="16dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
-                android:text="@string/sample_text_summary_inverse"
-                android:textSize="16sp"/>
+            android:paddingTop="8dp">
 
             <!-- android:attr/textColorPrimaryInverse -->
             <TextView

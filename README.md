@@ -5,6 +5,7 @@ Demo of supporting multiple themes within an app. Not an exhaustive example, but
 * Defining custom theme-specific attributes
 * Theme overlays
 * Changing themes at runtime
+* Backwards compat (minSdkVersion 16)
 
 ## Android Namespace Customization
 
@@ -82,21 +83,15 @@ There's a bunch of other background-related attributes such as `android:colorFor
 the appropriate parent (i.e. android default Light or Dark themes) and customize from there. Otherwise it can be easy to
 miss certain attributes and you could end up with light text on light backgrounds.
 
-## Defining Custom Attributes
+## Custom Attributes
 
-// TODO - Strings, assets, styles
+TODO
 
 ## Limitations
 
-// TODO - backwards compat
+TODO
 
-## Resources
-
-#### Designing themes
-[Coolors.co - The super fast color schemes generator](https://coolors.co/)  
-[Material.io - Color Tool](https://material.io/color)
-
-#### Feature Image Credits
+## Feature Image Credits
 [Upsplash - Karsten Würth](https://unsplash.com/photos/lsJ9jHKIqHg)  
 [Upsplash - Angelina Odemchuk](https://unsplash.com/photos/lp0IFw6YqZg)  
 [Upsplash - Clay Banks](https://unsplash.com/photos/hwLAI5lRhdM)  
