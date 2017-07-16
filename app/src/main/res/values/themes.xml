@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Illini" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
         <!-- General theme colors -->
         <item name="colorPrimary">@color/illiniColorPrimary</item>
         <item name="colorPrimaryDark">@color/illiniColorPrimaryDark</item>
@@ -22,7 +22,7 @@
         <item name="android:textColorLinkInverse">@color/illiniTextColorLinkInverse</item>
         <item name="android:textColorHintInverse">@color/illiniTextColorTertiaryInverse</item>
         <!-- Custom attributes defined in attrs.xml -->
-        <item name="backdropDrawable">@drawable/fields</item>
+        <item name="backdropDrawable">@drawable/fall</item>
         <item name="dividerColor">@color/illiniDividerColor</item>
         <item name="themeName">@string/theme_name_illini</item>
         <item name="themeDescription">@string/theme_desc_illini</item>
@@ -30,7 +30,7 @@
     </style>
 
     <style name="Theme.SeaFoam" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
         <!-- General theme colors -->
         <item name="colorPrimary">@color/seaFoamColorPrimary</item>
         <item name="colorPrimaryDark">@color/seaFoamColorPrimaryDark</item>
@@ -58,7 +58,7 @@
     </style>
 
     <style name="Theme.Tokyo" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
         <!-- General theme colors -->
         <item name="colorPrimary">@color/tokyoColorPrimary</item>
         <item name="colorPrimaryDark">@color/tokyoColorPrimaryDark</item>

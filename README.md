@@ -92,6 +92,6 @@ TODO
 TODO
 
 ## Feature Image Credits
-[Upsplash - Karsten Würth](https://unsplash.com/photos/lsJ9jHKIqHg)  
+[Upsplash - Curtis Mac Newton](https://unsplash.com/photos/GZwg03HNrno)  
 [Upsplash - Angelina Odemchuk](https://unsplash.com/photos/lp0IFw6YqZg)  
 [Upsplash - Clay Banks](https://unsplash.com/photos/hwLAI5lRhdM)  
