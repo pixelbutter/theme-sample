@@ -1,5 +1,7 @@
 # Theme Sample
 
+<img src="https://raw.githubusercontent.com/pixelbutter/theme-sample/master/screenshots/demo.gif" width="300" alt="demo" style="border: #F1F1F1 2px solid;">
+
 Demo of supporting multiple themes within an app. Not an exhaustive example, but includes the following capabilities:
 * Customizing `android` namespace attributes
 * Defining custom theme-specific attributes
